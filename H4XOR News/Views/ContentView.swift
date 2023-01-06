@@ -26,7 +26,7 @@ struct ContentView: View {
                         VStack {
                             Text(post.title)
                                 .padding()
-                            Text("Комментарии: \(String( post.num_comments))")
+                            Text("Comments: \(String( post.num_comments))")
                         }
                         
                     }
@@ -34,7 +34,7 @@ struct ContentView: View {
                 
                 
             }
-            .navigationBarTitle("H4X0R НОВОСТИ")
+            .navigationBarTitle("H4X0R NEWS")
             //.foregroundColor(.blue)
         }
         .onAppear{
